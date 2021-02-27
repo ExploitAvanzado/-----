@@ -45,11 +45,11 @@ while contador <= 3:
 
         ''')
         time.sleep(5)
-        os.system('cls')#linux  #windows ('cls')
+        os.system('clear')#linux  #windows ('cls')
         if contador == 3:
             contador = contador +1
 time.sleep(5)
-os.system('cls')#linux('clear')  #windows ('cls')
+os.system('clear')#linux('clear')  #windows ('cls')
 ''' INPUT USERNMAE TO DOX '''
 username = input('\033[92m{+} Enter username to DOX: ')
 
