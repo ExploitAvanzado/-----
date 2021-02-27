@@ -22,7 +22,7 @@ def print_slow(txt):
         sleep(0.1)
     print() # go to new line
 #Login
-os.system('cls')
+os.system('clear')
 contador = 1
 while contador <= 3:
     usuario = input("\033[92m[-] User [-]  :")
